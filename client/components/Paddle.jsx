@@ -2,7 +2,7 @@ import React from 'react';
 
 const Paddle = ({ id, loc }) => {
   const paddle = (
-    <div id={id} className='paddle' style={{ marginTop: `${loc}px` }}></div>
+    <div id={id} className='paddle' style={{ top: `${loc}px` }}></div>
   );
   return paddle;
 };
