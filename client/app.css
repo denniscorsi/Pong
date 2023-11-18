@@ -1,0 +1,43 @@
+body {
+  background-color: bisque;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  margin: 0px 30px;
+}
+
+#score {
+  display: flex;
+  justify-content: center;
+}
+
+#court {
+  background-color: black;
+  border: 5px solid white;
+  margin: 20px 0px;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.paddle {
+  background-color: white;
+  width: 15px;
+  height: 120px;
+}
+
+#paddle1 {
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+#paddle2 {
+  margin-top: 230px;
+  margin-right: 10px;
+}
